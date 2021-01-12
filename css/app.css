@@ -212,7 +212,7 @@ main #services .container_70 h1:nth-of-type(2) {
   background-color: #1d2528;
   border-radius: 5px;
 }
-main #services .container_70 p {
+main #services .container_70 .p_opacity {
   display: inline-block;
   width: 80%;
 }
@@ -230,24 +230,28 @@ main #services .container_70 #card_container .rule:nth-of-type(2) {
   margin-top: 26px;
 }
 main #services .container_70 #card_container .card {
-  padding: 40px;
+  padding: 35px;
   height: 230px;
   width: calc(95% / 3);
-  background-color: #1d2528;
+  background-color: #141a1c;
   border-radius: 12px;
 }
-main #services .container_70 #card_container .card div {
+main #services .container_70 #card_container .card .card_top {
+  height: 60px;
   width: 100%;
 }
-main #services .container_70 #card_container .card div i {
+main #services .container_70 #card_container .card .card_top i {
   color: #048383;
 }
-main #services .container_70 #card_container .card div i:nth-of-type(1) {
+main #services .container_70 #card_container .card .card_top i:nth-of-type(1) {
   float: left;
   font-size: 36px;
 }
-main #services .container_70 #card_container .card div i:nth-of-type(2) {
+main #services .container_70 #card_container .card .card_top i:nth-of-type(2) {
   float: right;
   font-size: 24px;
   opacity: 0.5;
+}
+main #services .container_70 #card_container .card p {
+  margin-top: 20px;
 }

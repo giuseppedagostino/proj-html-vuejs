@@ -108,7 +108,7 @@ main {
           border-radius: 5px;
         }
       }
-      p {
+      .p_opacity {
         display: inline-block;
         width: 80%;
       }
@@ -127,12 +127,13 @@ main {
           }
         }
         .card {
-          padding: 40px;
+          padding: 35px;
           height: 230px;
           width: calc(95% / 3);
-          background-color: $darkGrey;
+          background-color: $darkenDarkGrey;
           border-radius: 12px;
-          div {
+          .card_top {
+            height: 60px;
             width: 100%;
             i {
               color: $mediumGreen;
@@ -146,6 +147,11 @@ main {
                 opacity: 0.5;
               }
             }
+          }
+          p {
+            // cotinuo a non capire perchè prende solo l'80% della larghezza
+            // width: 100%;
+            margin-top: 20px;
           }
         }
       }
