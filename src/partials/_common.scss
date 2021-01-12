@@ -22,7 +22,7 @@
 }
 
 .p_opacity {
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 // BUTTONS
@@ -37,10 +37,10 @@ button {
   }
 }
 .button_green {
-  background-color: $lightGreen;
-  border: 1px solid $lightGreen;
+  background-color: $mediumGreen;
+  border: 1px solid $mediumGreen;
 }
 .button_transparent {
   background-color: transparent;
-  border: 1px solid $lightGreen;
+  border: 1px solid $mediumGreen;
 }

@@ -20,7 +20,7 @@
 }
 
 .p_opacity {
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 button {
@@ -35,13 +35,13 @@ button:focus {
 }
 
 .button_green {
-  background-color: #52babb;
-  border: 1px solid #52babb;
+  background-color: #048383;
+  border: 1px solid #048383;
 }
 
 .button_transparent {
   background-color: transparent;
-  border: 1px solid #52babb;
+  border: 1px solid #048383;
 }
 
 header {
@@ -121,18 +121,21 @@ main .video {
   padding: 60px 0;
 }
 main .video .container_60 {
-  height: 540px;
+  height: 560px;
   text-align: center;
+  overflow: hidden;
 }
 main .video .container_60 div {
-  padding: 0 30px;
-  background-color: #52babb;
+  padding: 0 40px;
 }
 main .video .container_60 div *:first-child {
+  margin-bottom: 20px;
+  color: #52babb;
   text-transform: uppercase;
+  font-weight: 600;
 }
 main .video .container_60 div h1 {
-  margin: 20px 0 20px 10px;
+  margin: 0 0 20px 10px;
   display: inline-block;
   font-size: 38px;
 }
@@ -141,9 +144,31 @@ main .video .container_60 div h1:nth-of-type(1) {
 }
 main .video .container_60 div h1:nth-of-type(2) {
   padding: 5px;
-  color: #52babb;
+  color: #048383;
   background-color: #e7eee9;
 }
+main .video .container_60 div *:nth-child(4) {
+  margin-bottom: 30px;
+}
 main .video .container_60 img {
-  width: 90%;
+  width: 95%;
+}
+main .numbers {
+  background: url("../img/bg-7.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .numbers .container_70 {
+  height: 420px;
+  text-align: center;
+}
+main .numbers .container_70 *:first-child {
+  margin-bottom: 20px;
+  color: #52babb;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main .numbers .container_70 h1 {
+  color: white;
+  font-size: 38px;
 }

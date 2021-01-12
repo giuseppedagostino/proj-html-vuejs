@@ -3,3 +3,9 @@
   font-weight: 500;
   color: white;
 }
+@mixin green-subtitle {
+  margin-bottom: 20px;
+  color: $lightGreen;
+  text-transform: uppercase;
+  font-weight: 600;
+}
