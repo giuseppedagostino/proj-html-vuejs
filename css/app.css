@@ -127,8 +127,9 @@ main #jumbotron .container_70 div button {
   margin: 0 5px;
 }
 main #video .container_60 {
-  height: 600px;
+  height: 580px;
   text-align: center;
+  overflow: hidden;
 }
 main #video .container_60 div {
   padding: 0 30px;

@@ -41,8 +41,9 @@ main {
   // SEZIONE VIDEO
   #video {
     .container_60 {
-      height: 600px;
+      height: 580px;
       text-align: center;
+      overflow: hidden;
       div {
         padding: 0 30px;
         @include green-subtitle;
