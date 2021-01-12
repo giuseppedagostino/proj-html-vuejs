@@ -1,11 +1,27 @@
 header {
   height: $headerHeight;
-  color: white;
   background-color: $headerBackground;
   .top {
+    color: white;
     height: $headerHeight;
+    line-height: $headerHeight;
   }
   .bottom {
-    height: $headerBottomHeight;
+    color: white;
+    height: calc(#{($headerHeight / 2) * 3});
+    line-height: calc(#{($headerHeight / 2) * 3});
+    // al momento il bordo del container crea piccole imperfezioni di layout
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+    }
   }
 }

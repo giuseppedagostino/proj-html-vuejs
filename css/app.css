@@ -8,17 +8,42 @@
 .container {
   margin: auto;
   width: 70%;
-  border: 2px solid red;
+  border: 2px dotted red;
 }
 
 header {
-  height: 60px;
-  color: white;
+  height: 40px;
   background-color: #314c56;
 }
 header .top {
-  height: 60px;
+  color: white;
+  height: 40px;
+  line-height: 40px;
 }
 header .bottom {
-  height: 80px;
+  color: white;
+  height: calc(60px);
+  line-height: calc(60px);
+}
+header .left {
+  float: left;
+}
+header .right {
+  float: right;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+}
+
+main .jumbotron {
+  height: 800px;
+  background: url("../img/bg-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .jumbotron .container {
+  height: 100%;
 }
