@@ -134,7 +134,7 @@ main #video .container_60 {
 main #video .container_60 div {
   padding: 0 30px;
 }
-main #video .container_60 div *:first-child {
+main #video .container_60 div p:first-child {
   margin-bottom: 20px;
   color: #52babb;
   text-transform: uppercase;
@@ -154,7 +154,7 @@ main #video .container_60 div h1:nth-of-type(2) {
   background-color: #e7eee9;
   border-radius: 5px;
 }
-main #video .container_60 div *:nth-child(4) {
+main #video .container_60 div :nth-child(4) {
   margin-bottom: 30px;
 }
 main #video .container_60 img {
@@ -169,7 +169,7 @@ main #numbers .container_70 {
   height: 340px;
   text-align: center;
 }
-main #numbers .container_70 *:first-child {
+main #numbers .container_70 p:first-child {
   margin-bottom: 20px;
   color: #52babb;
   text-transform: uppercase;
@@ -196,7 +196,7 @@ main #services .container_70 {
   color: white;
   height: 700px;
 }
-main #services .container_70 *:first-child {
+main #services .container_70 p:first-child {
   margin-bottom: 20px;
   color: #52babb;
   text-transform: uppercase;
@@ -219,16 +219,35 @@ main #services .container_70 p {
 main #services .container_70 button {
   float: right;
 }
-main #services .container_70 #card_container {
-  display: flex;
-  flex-direction: column;
-}
-main #services .container_70 #card_container div {
+main #services .container_70 #card_container .rule {
   display: flex;
   justify-content: space-between;
 }
+main #services .container_70 #card_container .rule:first-child {
+  margin-top: 40px;
+}
+main #services .container_70 #card_container .rule:nth-of-type(2) {
+  margin-top: 26px;
+}
 main #services .container_70 #card_container .card {
-  height: 200px;
-  width: 200px;
+  padding: 40px;
+  height: 230px;
+  width: calc(95% / 3);
   background-color: #1d2528;
+  border-radius: 12px;
+}
+main #services .container_70 #card_container .card div {
+  width: 100%;
+}
+main #services .container_70 #card_container .card div i {
+  color: #048383;
+}
+main #services .container_70 #card_container .card div i:nth-of-type(1) {
+  float: left;
+  font-size: 36px;
+}
+main #services .container_70 #card_container .card div i:nth-of-type(2) {
+  float: right;
+  font-size: 24px;
+  opacity: 0.5;
 }

@@ -4,7 +4,7 @@
   color: white;
 }
 @mixin green-subtitle {
-  *:first-child {
+  p:first-child {
     margin-bottom: 20px;
     color: $lightGreen;
     text-transform: uppercase;
