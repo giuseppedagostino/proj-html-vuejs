@@ -1,4 +1,5 @@
 @import "partials/_variables.scss";
+@import "partials/_mixins.scss";
 
 * {
   box-sizing: border-box;
@@ -6,9 +7,31 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
-.container {
+.container_70 {
   margin: auto;
   width: 70%;
+  font-size: 14px;
   border: $debugBorder;
   // al momento questo bordo di debug crea piccole imperfezioni di layout
+}
+.container_60 {
+  margin: auto;
+  width: 60%;
+  font-size: 14px;
+  border: $debugBorder60;
+}
+button {
+  padding: 12.5px 20px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 7.5px;
+}
+.button_green {
+  background-color: $lightGreen;
+  border: 1px solid $lightGreen;
+}
+.button_transparent {
+  background-color: transparent;
+  border: 1px solid $lightGreen;
 }

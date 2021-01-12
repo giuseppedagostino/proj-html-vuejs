@@ -1,3 +1,5 @@
+@import "partials/_mixins.scss";
+
 header {
   height: $headerHeight;
   background-color: $headerBackground;
@@ -7,13 +9,22 @@ header {
     line-height: $headerHeight;
   }
   .bottom {
-    color: white;
+    @include button-font;
     height: calc(#{($headerHeight / 2) * 3});
     line-height: calc(#{($headerHeight / 2) * 3});
     // al momento il bordo del container crea piccole imperfezioni di layout
   }
   .left {
     float: left;
+    span {
+      font-weight: 700;
+    }
+    *:nth-child(1) {
+      color: $lightGreen;
+    }
+    *:nth-child(2) {
+      color: $lightGrey;
+    }
   }
   .right {
     float: right;

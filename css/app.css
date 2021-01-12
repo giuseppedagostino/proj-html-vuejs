@@ -5,10 +5,36 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
+.container_70 {
   margin: auto;
   width: 70%;
+  font-size: 14px;
   border: 2px dotted red;
+}
+
+.container_60 {
+  margin: auto;
+  width: 60%;
+  font-size: 14px;
+  border: 2px solid lightgreen;
+}
+
+button {
+  padding: 12.5px 20px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 7.5px;
+}
+
+.button_green {
+  background-color: #52babb;
+  border: 1px solid #52babb;
+}
+
+.button_transparent {
+  background-color: transparent;
+  border: 1px solid #52babb;
 }
 
 header {
@@ -21,12 +47,23 @@ header .top {
   line-height: 40px;
 }
 header .bottom {
+  font-size: 16px;
+  font-weight: 500;
   color: white;
   height: calc(60px);
   line-height: calc(60px);
 }
 header .left {
   float: left;
+}
+header .left span {
+  font-weight: 700;
+}
+header .left *:nth-child(1) {
+  color: #52babb;
+}
+header .left *:nth-child(2) {
+  color: #e7eee9;
 }
 header .right {
   float: right;
@@ -44,12 +81,13 @@ main .jumbotron {
   background: url("../img/bg-2.jpg");
   background-position: center;
   background-size: cover;
+  border: 2px dotted red;
 }
-main .jumbotron .container {
+main .jumbotron .container_70 {
   position: relative;
   height: 100%;
 }
-main .jumbotron .container div {
+main .jumbotron .container_70 div {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -58,12 +96,20 @@ main .jumbotron .container div {
   width: 70%;
   color: white;
   text-align: center;
-  border: 2px dotted red;
 }
-main .jumbotron .container div h1 {
+main .jumbotron .container_70 div h1 {
   font-size: 56px;
   font-weight: 700;
 }
-main .jumbotron .container div p {
-  margin: 20px 0;
+main .jumbotron .container_70 div p {
+  margin: 25px 0;
+}
+main .jumbotron .container_70 div button {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin: 0 5px;
+}
+main .video .container_60 {
+  height: 400px;
 }

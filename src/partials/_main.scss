@@ -1,11 +1,15 @@
+@import "partials/_mixins.scss";
+
 main {
+
   // JUMBOTRON
   .jumbotron {
     height: 700px;
     background: url("../img/bg-2.jpg");
     background-position: center;
     background-size: cover;
-    .container {
+    border: $debugBorder;
+    .container_70 {
       position: relative;
       height: 100%;
       div {
@@ -24,10 +28,22 @@ main {
           font-weight: 700;
         }
         p {
-          margin: 20px 0;
+          margin: 25px 0;
         }
-        border: $debugBorder;
+        button {
+          @include button-font;
+          margin: 0 5px;
+        }
       }
     }
   }
+  // FINE JUMBOTRON
+
+  // SEZIONE VIDEO
+  .video {
+    .container_60 {
+      height: 400px;
+    }
+  }
+
 }
