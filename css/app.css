@@ -19,12 +19,19 @@
   border: 2px solid lightgreen;
 }
 
+.p_opacity {
+  opacity: 0.75;
+}
+
 button {
   padding: 12.5px 20px;
   color: white;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 7.5px;
+}
+button:focus {
+  outline: none;
 }
 
 .button_green {
@@ -110,6 +117,33 @@ main .jumbotron .container_70 div button {
   color: white;
   margin: 0 5px;
 }
+main .video {
+  padding: 60px 0;
+}
 main .video .container_60 {
-  height: 400px;
+  height: 540px;
+  text-align: center;
+}
+main .video .container_60 div {
+  padding: 0 30px;
+  background-color: #52babb;
+}
+main .video .container_60 div *:first-child {
+  text-transform: uppercase;
+}
+main .video .container_60 div h1 {
+  margin: 20px 0 20px 10px;
+  display: inline-block;
+  font-size: 38px;
+}
+main .video .container_60 div h1:nth-of-type(1) {
+  color: red;
+}
+main .video .container_60 div h1:nth-of-type(2) {
+  padding: 5px;
+  color: #52babb;
+  background-color: #e7eee9;
+}
+main .video .container_60 img {
+  width: 90%;
 }
