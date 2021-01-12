@@ -19,8 +19,18 @@
   border: 2px solid lightgreen;
 }
 
+.padding {
+  padding: 80px 0;
+}
+
 .p_opacity {
   opacity: 0.6;
+}
+
+.mid_subtitle {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 button {
@@ -83,18 +93,17 @@ header ul li {
   margin-left: 20px;
 }
 
-main .jumbotron {
+main #jumbotron {
   height: 700px;
   background: url("../img/bg-2.jpg");
   background-position: center;
   background-size: cover;
-  border: 2px dotted red;
 }
-main .jumbotron .container_70 {
+main #jumbotron .container_70 {
   position: relative;
   height: 100%;
 }
-main .jumbotron .container_70 div {
+main #jumbotron .container_70 div {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -104,71 +113,78 @@ main .jumbotron .container_70 div {
   color: white;
   text-align: center;
 }
-main .jumbotron .container_70 div h1 {
+main #jumbotron .container_70 div h1 {
   font-size: 56px;
   font-weight: 700;
 }
-main .jumbotron .container_70 div p {
+main #jumbotron .container_70 div p {
   margin: 25px 0;
 }
-main .jumbotron .container_70 div button {
+main #jumbotron .container_70 div button {
   font-size: 16px;
   font-weight: 500;
   color: white;
   margin: 0 5px;
 }
-main .video {
-  padding: 60px 0;
-}
-main .video .container_60 {
-  height: 560px;
+main #video .container_60 {
+  height: 600px;
   text-align: center;
-  overflow: hidden;
 }
-main .video .container_60 div {
-  padding: 0 40px;
+main #video .container_60 div {
+  padding: 0 30px;
 }
-main .video .container_60 div *:first-child {
+main #video .container_60 div *:first-child {
   margin-bottom: 20px;
   color: #52babb;
   text-transform: uppercase;
   font-weight: 600;
 }
-main .video .container_60 div h1 {
+main #video .container_60 div h1 {
   margin: 0 0 20px 10px;
   display: inline-block;
   font-size: 38px;
 }
-main .video .container_60 div h1:nth-of-type(1) {
-  color: red;
+main #video .container_60 div h1:nth-of-type(1) {
+  color: black;
 }
-main .video .container_60 div h1:nth-of-type(2) {
-  padding: 5px;
+main #video .container_60 div h1:nth-of-type(2) {
+  padding: 5px 10px;
   color: #048383;
   background-color: #e7eee9;
+  border-radius: 5px;
 }
-main .video .container_60 div *:nth-child(4) {
+main #video .container_60 div *:nth-child(4) {
   margin-bottom: 30px;
 }
-main .video .container_60 img {
-  width: 95%;
+main #video .container_60 img {
+  width: 100%;
 }
-main .numbers {
+main #numbers {
   background: url("../img/bg-7.jpg");
   background-position: center;
   background-size: cover;
 }
-main .numbers .container_70 {
-  height: 420px;
+main #numbers .container_70 {
+  height: 340px;
   text-align: center;
 }
-main .numbers .container_70 *:first-child {
+main #numbers .container_70 *:first-child {
   margin-bottom: 20px;
   color: #52babb;
   text-transform: uppercase;
   font-weight: 600;
 }
-main .numbers .container_70 h1 {
+main #numbers .container_70 h1 {
   color: white;
   font-size: 38px;
+}
+main #numbers .container_70 #numbers_div {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+main #numbers .container_70 #numbers_div div .green {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
 }

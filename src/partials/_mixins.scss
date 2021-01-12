@@ -4,8 +4,21 @@
   color: white;
 }
 @mixin green-subtitle {
-  margin-bottom: 20px;
-  color: $lightGreen;
-  text-transform: uppercase;
-  font-weight: 600;
+  *:first-child {
+    margin-bottom: 20px;
+    color: $lightGreen;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+@mixin section-title {
+  &:nth-of-type(1) {
+    color: black;
+  }
+  &:nth-of-type(2) {
+    padding: 5px 10px;
+    color: $mediumGreen;
+    background-color: $lightGrey;
+    border-radius: 5px;
+  }
 }

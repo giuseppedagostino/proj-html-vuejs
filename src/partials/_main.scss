@@ -3,12 +3,11 @@
 main {
 
   // JUMBOTRON
-  .jumbotron {
+  #jumbotron {
     height: 700px;
     background: url("../img/bg-2.jpg");
     background-position: center;
     background-size: cover;
-    border: $debugBorder;
     .container_70 {
       position: relative;
       height: 100%;
@@ -40,56 +39,55 @@ main {
   // FINE JUMBOTRON
 
   // SEZIONE VIDEO
-  .video {
-    padding: 60px 0;
+  #video {
     .container_60 {
-      height: 560px;
+      height: 600px;
       text-align: center;
-      overflow: hidden;
       div {
-        padding: 0 40px;
-        *:first-child {
-          @include green-subtitle;
-        }
+        padding: 0 30px;
+        @include green-subtitle;
         h1 {
           margin: 0 0 20px 10px;
           display: inline-block;
           font-size: 38px;
-          &:nth-of-type(1) {
-            color: red;
-          }
-          &:nth-of-type(2) {
-            padding: 5px;
-            color: $mediumGreen;
-            background-color: $lightGrey;
-          }
+          @include section-title;
         }
         *:nth-child(4) {
           margin-bottom: 30px;
         }
       }
       img {
-        width: 95%;
+        width: 100%;
       }
     }
   }
   // FINE VIDEO
 
   // NUMBERS
-  .numbers {
+  #numbers {
     background: url("../img/bg-7.jpg");
     // quest'immagine di background è momentanea. Quella presente nello screen non c'è nella cartella
     background-position: center;
     background-size: cover;
     .container_70 {
-      height: 420px;
+      height: 340px;
       text-align: center;
-      *:first-child {
-        @include green-subtitle;
-      }
+      @include green-subtitle;
       h1 {
         color: white;
         font-size: 38px;
+      }
+      #numbers_div {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        div {
+          .green {
+            margin-bottom: 10px;
+            font-size: 36px;
+            font-weight: 700;
+          }
+        }
       }
     }
   }
