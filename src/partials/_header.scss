@@ -1,0 +1,11 @@
+header {
+  height: $headerHeight;
+  color: white;
+  background-color: $headerBackground;
+  .top {
+    height: $headerHeight;
+  }
+  .bottom {
+    height: $headerBottomHeight;
+  }
+}

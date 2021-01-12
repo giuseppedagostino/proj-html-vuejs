@@ -5,6 +5,20 @@
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  background-color: #99AA33;
+.container {
+  margin: auto;
+  width: 70%;
+  border: 2px solid red;
+}
+
+header {
+  height: 60px;
+  color: white;
+  background-color: #314c56;
+}
+header .top {
+  height: 60px;
+}
+header .bottom {
+  height: 80px;
 }
