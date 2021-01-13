@@ -1,4 +1,5 @@
 @import "partials/_mixins.scss";
+@import "partials/_common.scss";
 
 header {
   height: $headerHeight;
@@ -7,6 +8,9 @@ header {
     color: rgba(255,255,255,0.75);
     height: $headerHeight;
     line-height: $headerHeight;
+    a {
+      color: rgba(255,255,255,0.75);
+    }
     span {
       margin-right: 7.5px;
     }
@@ -16,9 +20,21 @@ header {
     height: calc(#{($headerHeight / 2) * 3});
     line-height: calc(#{($headerHeight / 2) * 3});
     // al momento il bordo del container crea piccole imperfezioni di layout
-    .right {
-      text-transform: uppercase;
-    }
+      .right {
+        text-transform: uppercase;
+        // perchè gli hover sull'header bottom non funzionano?
+        // span {
+        //   &:hover {
+        //     cursor: pointer;
+        //     transform: scale(1.1);
+        //   }
+        // }
+      }
+      // continuo a non capire perchè l'hover sul button dell'header non funziona
+      // button:hover {
+      //   cursor: pointer;
+      //   background-color: $lightGreen;
+      // }
   }
   .left {
     float: left;

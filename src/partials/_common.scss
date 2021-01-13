@@ -45,6 +45,7 @@ button {
   &:focus {
     outline: none;
   }
+  // continuo a non capire perchè l'hover sul button dell'header non funziona
   &:hover {
     cursor: pointer;
     background-color: $lightGreen;

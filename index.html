@@ -37,8 +37,10 @@
             <ul>
               <!-- li con icona e testo -->
               <li v-for="(information) in contactInformations">
-                <span v-html="information.icon"></span>
-                {{ information.text }}
+                <a :href="information.link">
+                  <span v-html="information.icon"></span>
+                </a>
+                <a :href="information.link">{{ information.text }}</a>
               </li>
             </ul>
           </div>

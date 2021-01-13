@@ -6,14 +6,25 @@ var app = new Vue({
       {
         icon: '<i class="fas fa-phone-alt"></i>',
         text: "+1 (305) 1234-5678",
+        link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
       {
         icon: '<i class="fas fa-envelope"></i>',
         text: "hello@example.com",
+        link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
-      {icon: '<i class="fab fa-facebook-f"></i>'},
-      {icon: '<i class="fab fa-twitter"></i>'},
-      {icon: '<i class="fab fa-linkedin-in"></i>'},
+      {
+        icon: '<i class="fab fa-facebook-f"></i>',
+        link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+      },
+      {
+        icon: '<i class="fab fa-twitter"></i>',
+        link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+      },
+      {
+        icon: '<i class="fab fa-linkedin-in"></i>',
+        link: "https://www.linkedin.com/in/giuseppe-d-agostino/",
+      },
     ],
     // array per header bottom
     nav: [
