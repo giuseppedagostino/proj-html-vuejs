@@ -141,11 +141,15 @@ header .bottom {
   font-size: 16px;
   font-weight: 500;
   color: white;
+  z-index: 2;
   height: calc(60px);
   line-height: calc(60px);
 }
 header .bottom .right {
   text-transform: uppercase;
+}
+header .bottom .right .li:hover {
+  color: red;
 }
 header .left {
   float: left;
@@ -395,6 +399,25 @@ main #team .container_70 .left h1:nth-of-type(1) {
 }
 main #team .container_70 .left h1:nth-of-type(2) {
   color: black;
+}
+main #team .container_70 .left #card_container_2 {
+  width: 100%;
+  height: 400px;
+  border: 2px dotted red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main #team .container_70 .left #card_container_2 .rule {
+  width: 100%;
+  height: 47%;
+  display: flex;
+  justify-content: space-between;
+}
+main #team .container_70 .left #card_container_2 .rule .card {
+  height: 100%;
+  width: 47%;
+  background-color: red;
 }
 main #team .container_70 .right {
   float: right;

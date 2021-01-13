@@ -17,24 +17,16 @@ header {
   }
   .bottom {
     @include button-font;
+    z-index: 2;
     height: calc(#{($headerHeight / 2) * 3});
     line-height: calc(#{($headerHeight / 2) * 3});
     // al momento il bordo del container crea piccole imperfezioni di layout
       .right {
         text-transform: uppercase;
-        // perchè gli hover sull'header bottom non funzionano?
-        // span {
-        //   &:hover {
-        //     cursor: pointer;
-        //     transform: scale(1.1);
-        //   }
-        // }
+        .li:hover {
+          color: red;
+        }
       }
-      // continuo a non capire perchè l'hover sul button dell'header non funziona
-      // button:hover {
-      //   cursor: pointer;
-      //   background-color: $lightGreen;
-      // }
   }
   .left {
     float: left;
