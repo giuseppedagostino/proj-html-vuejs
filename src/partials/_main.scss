@@ -84,6 +84,7 @@ main {
             margin-bottom: 10px;
             font-size: 36px;
             font-weight: 700;
+            color: $mediumGreen;
           }
         }
       }
@@ -159,4 +160,11 @@ main {
   }
   // FINE SERVICES
 
+  // TEAM
+  #team {
+    .container_70 {
+      height: 200px;
+    }
+  }
+  // FINE TEAM
 }

@@ -41,8 +41,13 @@ button {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 7.5px;
+  transition: 0.4s;
   &:focus {
     outline: none;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: $lightGreen;
   }
 }
 .button_green {
