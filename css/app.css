@@ -255,6 +255,19 @@ main #services .container_70 #card_container .card {
   background-color: #141a1c;
   border-radius: 12px;
 }
+main #services .container_70 #card_container .card:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+main #services .container_70 #card_container .card:hover .card_top i {
+  color: white;
+}
+main #services .container_70 #card_container .card:hover .card_top i:nth-of-type(2) {
+  padding: 6px 7px;
+  background-color: #048383;
+  border-radius: 50%;
+  opacity: 1;
+}
 main #services .container_70 #card_container .card .card_top {
   height: 60px;
   width: 100%;
