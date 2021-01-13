@@ -32,9 +32,11 @@
           <!-- parte destra -->
           <div class="right">
             <ul>
-              <li>ciao</li>
-              <li>ciao</li>
-              <li>ciao</li>
+              <!-- li con icona e testo -->
+              <li v-for="(information) in contactInformations">
+                {{ information.icon }}
+                {{ information.text }}
+              </li>
             </ul>
           </div>
 
