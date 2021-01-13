@@ -4,26 +4,39 @@ header {
   height: $headerHeight;
   background-color: $headerBackground;
   .top {
-    color: white;
+    color: rgba(255,255,255,0.75);
     height: $headerHeight;
     line-height: $headerHeight;
+    span {
+      margin-right: 7.5px;
+    }
   }
   .bottom {
     @include button-font;
     height: calc(#{($headerHeight / 2) * 3});
     line-height: calc(#{($headerHeight / 2) * 3});
     // al momento il bordo del container crea piccole imperfezioni di layout
+    .right {
+      text-transform: uppercase;
+    }
   }
   .left {
     float: left;
     span {
+      font-size: 20px;
       font-weight: 700;
+      &:nth-child(1) {
+        color: $lightGreen;
+      }
+      &:nth-child(2) {
+        color: $lightGrey;
+      }
     }
-    *:nth-child(1) {
-      color: $lightGreen;
+    p {
+      display: inline-block;
     }
-    *:nth-child(2) {
-      color: $lightGrey;
+    i {
+      margin-right: 7.5px;
     }
   }
   .right {
@@ -33,7 +46,7 @@ header {
     list-style: none;
     li {
       display: inline-block;
-      margin-left: 20px;
+      margin-left: 30px;
     }
   }
 }

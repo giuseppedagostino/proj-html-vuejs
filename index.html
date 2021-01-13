@@ -27,13 +27,17 @@
         <div class="top">
 
           <!-- parte sinistra -->
-          <div class="left">left</div>
+          <div class="left">
+            <i class="fas fa-clock"></i>
+            <p>Open Hours: Mon - Sat - 9:00 - 18:00</p>
+          </div>
 
           <!-- parte destra -->
           <div class="right">
             <ul>
               <!-- li con icona e testo -->
               <li v-for="(information) in contactInformations">
+                <span v-html="information.icon"></span>
                 {{ information.text }}
               </li>
             </ul>
@@ -53,7 +57,7 @@
           <div class="right">
             <ul>
               <li v-for="(item) in nav">
-                {{ item }}
+                <span v-html="item"></span>
               </li>
             </ul>
           </div>

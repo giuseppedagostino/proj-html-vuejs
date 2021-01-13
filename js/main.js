@@ -22,10 +22,8 @@ var app = new Vue({
       "services",
       "team",
       "blog",
-      "user_icon",
-      "button_green",
-      // '<i class="far fa-user"></i>',
-      // '<button class="button_green">get in touch</button>'
+      '<i class="far fa-user"></i>',
+      '<button class="button_green">get in touch</button>'
     ],
   },
   methods: {
