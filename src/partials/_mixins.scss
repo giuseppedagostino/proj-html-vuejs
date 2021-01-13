@@ -18,7 +18,7 @@
     color: black;
   }
   &:nth-of-type(2) {
-    margin: 0 0 20px 10px;
+    margin-left: 10px;
     padding: 5px 10px;
     color: $mediumGreen;
     background-color: $lightGrey;
@@ -26,6 +26,8 @@
   }
 }
 @mixin section-title-reverse {
+  display: inline-block;
+  font-size: 38px;
   &:nth-of-type(1) {
     padding: 5px 10px;
     color: $mediumGreen;
