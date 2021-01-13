@@ -11,9 +11,9 @@ var app = new Vue({
         icon: '<i class="fas fa-envelope"></i>',
         text: "hello@example.com",
       },
-      '<i class="fab fa-facebook-f"></i>',
-      '<i class="fab fa-twitter"></i>',
-      '<i class="fab fa-linkedin-in"></i>',
+      {icon: '<i class="fab fa-facebook-f"></i>'},
+      {icon: '<i class="fab fa-twitter"></i>'},
+      {icon: '<i class="fab fa-linkedin-in"></i>'},
     ],
     // array per header bottom
     nav: [
@@ -22,8 +22,10 @@ var app = new Vue({
       "services",
       "team",
       "blog",
-      '<i class="far fa-user"></i>',
-      '<button class="button_green">get in touch</button>'
+      "user_icon",
+      "button_green",
+      // '<i class="far fa-user"></i>',
+      // '<button class="button_green">get in touch</button>'
     ],
   },
   methods: {

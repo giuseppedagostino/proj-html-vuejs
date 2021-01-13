@@ -34,7 +34,6 @@
             <ul>
               <!-- li con icona e testo -->
               <li v-for="(information) in contactInformations">
-                {{ information.icon }}
                 {{ information.text }}
               </li>
             </ul>
@@ -53,9 +52,9 @@
           <!-- parte destra -->
           <div class="right">
             <ul>
-              <li>ciao</li>
-              <li>ciao</li>
-              <li>ciao</li>
+              <li v-for="(item) in nav">
+                {{ item }}
+              </li>
             </ul>
           </div>
 
