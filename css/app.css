@@ -213,34 +213,53 @@ main #video .container_60 {
   text-align: center;
   overflow: hidden;
 }
-main #video .container_60 div {
+main #video .container_60 div:first-child {
   padding: 0 30px;
 }
-main #video .container_60 div p:first-child {
+main #video .container_60 div:first-child p:first-child {
   margin-bottom: 20px;
   color: #52babb;
   text-transform: uppercase;
   font-weight: 600;
 }
-main #video .container_60 div h1 {
+main #video .container_60 div:first-child h1 {
   display: inline-block;
   font-size: 38px;
 }
-main #video .container_60 div h1:nth-of-type(1) {
+main #video .container_60 div:first-child h1:nth-of-type(1) {
   color: black;
 }
-main #video .container_60 div h1:nth-of-type(2) {
+main #video .container_60 div:first-child h1:nth-of-type(2) {
   margin: 0 0 20px 10px;
   padding: 5px 10px;
   color: #048383;
   background-color: #e7eee9;
   border-radius: 5px;
 }
-main #video .container_60 div :nth-child(4) {
+main #video .container_60 div:first-child :nth-child(4) {
   margin-bottom: 30px;
 }
-main #video .container_60 img {
+main #video .container_60 .div_img {
   width: 100%;
+  position: relative;
+}
+main #video .container_60 .div_img i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 72px;
+  opacity: 0.3;
+}
+main #video .container_60 .div_img img {
+  width: 100%;
+}
+main #video .container_60 .div_img:hover {
+  cursor: pointer;
+}
+main #video .container_60 .div_img:hover i {
+  opacity: 0.8;
 }
 main #numbers {
   background: url("../img/bg-7.jpg");
