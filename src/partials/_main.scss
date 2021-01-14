@@ -275,8 +275,35 @@ main {
         .mid_subtitle {
           font-size: 24px;
         }
+        p {
+          margin: 20px 0;
+          font-size: 16px;
+          color: white;
+          opacity: 0.6;
+        }
+        h3 {
+          color: white;
+          opacity: 0.8;
+        }
+        img {
+          position: absolute;
+          bottom: 45px;
+          right: 30px;
+          width: 35px;
+          transform: rotate(180deg);
+          opacity: 0.4;
+        }
       }
     }
   }
   // FINE TEAM
+
+  // NEWS
+  #news {
+    background-color: $panna;
+    .container_70 {
+      height: 200px;
+    }
+  }
+  // FINE NEWS
 }

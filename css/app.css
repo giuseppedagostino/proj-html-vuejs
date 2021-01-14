@@ -439,6 +439,30 @@ main #team .container_70 .right {
 main #team .container_70 .right .mid_subtitle {
   font-size: 24px;
 }
+main #team .container_70 .right p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: white;
+  opacity: 0.6;
+}
+main #team .container_70 .right h3 {
+  color: white;
+  opacity: 0.8;
+}
+main #team .container_70 .right img {
+  position: absolute;
+  bottom: 45px;
+  right: 30px;
+  width: 35px;
+  transform: rotate(180deg);
+  opacity: 0.4;
+}
+main #news {
+  background-color: #EEF4ED;
+}
+main #news .container_70 {
+  height: 200px;
+}
 
 footer .top {
   background: url("../img/bg-7.jpg");
