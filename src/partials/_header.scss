@@ -1,12 +1,16 @@
 @import "partials/_mixins.scss";
 
 header {
-  height: $headerHeight;
-  background-color: $headerBackground;
+  position: absolute;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, $headerBackground 0%, $headerBackground 40%, transparent 40%, transparent 100%);
+  z-index: 2;
   .top {
     color: rgba(255,255,255,0.75);
-    height: $headerHeight;
-    line-height: $headerHeight;
+    height: $headerBaseHeight;
+    line-height: $headerBaseHeight;
     li {
       a {
         color: white;
@@ -26,16 +30,22 @@ header {
   }
   .bottom {
     @include button-font;
-    z-index: 2;
-    height: calc(#{($headerHeight / 2) * 3});
-    line-height: calc(#{($headerHeight / 2) * 3});
-    // al momento il bordo del container crea piccole imperfezioni di layout
-      .right {
-        text-transform: uppercase;
-        .li:hover {
-          color: red;
+    z-index: 100;
+    height: calc(#{($headerBaseHeight / 2) * 3});
+    line-height: calc(#{($headerBaseHeight / 2) * 3});
+    .right {
+      text-transform: uppercase;
+      li:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        span{
+          cursor: pointer;
+        }
+        &:last-child {
+          transform: none;
         }
       }
+    }
   }
   .left {
     float: left;

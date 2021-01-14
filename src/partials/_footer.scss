@@ -69,8 +69,8 @@ footer {
     color: white;
     background-color: $darkenDarkGrey;
     .container_70 {
-      height: calc(#{($headerHeight / 2) * 3});
-      line-height: calc(#{($headerHeight / 2) * 3});
+      height: calc(#{($headerBaseHeight / 2) * 3});
+      line-height: calc(#{($headerBaseHeight / 2) * 3});
       .p_opacity {
         margin: 0;
         display: inline-block;
