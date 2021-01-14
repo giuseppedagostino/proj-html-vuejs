@@ -70,11 +70,19 @@ header .top {
   height: 40px;
   line-height: 40px;
 }
-header .top a {
-  color: rgba(255, 255, 255, 0.75);
+header .top li a {
+  color: white;
+  opacity: 0.75;
 }
-header .top i {
+header .top li i {
   margin-right: 7.5px;
+}
+header .top li:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+header .top li:hover a {
+  opacity: 1;
 }
 header .bottom {
   font-size: 16px;

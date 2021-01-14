@@ -7,11 +7,21 @@ header {
     color: rgba(255,255,255,0.75);
     height: $headerHeight;
     line-height: $headerHeight;
-    a {
-      color: rgba(255,255,255,0.75);
-    }
-    i {
-      margin-right: 7.5px;
+    li {
+      a {
+        color: white;
+        opacity: 0.75;
+      }
+      i {
+        margin-right: 7.5px;
+      }
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+        a {
+          opacity: 1;
+        }
+      }
     }
   }
   .bottom {
