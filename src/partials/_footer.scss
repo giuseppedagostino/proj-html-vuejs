@@ -13,9 +13,22 @@ footer {
         padding: 30px;
         width: 23%;
         height: 100%;
-        color: white;
         background-color: rgba(150,150,150,0.1);
         border-radius: 12px;
+        // colonna statica
+        &:first-child {
+          color: white;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+          .p_opacity {
+            margin: 20px 0;
+            i {
+              margin-right: 10px;
+            }
+          }
+        }
       }
     }
   }

@@ -262,6 +262,11 @@
 
           <div class="column" v-for="(column, index) in footerArray">
             <h2 class="mid_subtitle">{{ column.title }}</h2>
+            <a :href="link.link" v-for="(link) in column.links">
+              <p class="p_opacity">
+                <i class="fas fa-chevron-right"></i>
+                {{ link.text }}</p>
+            </a>
           </div>
         </div>
       </div>
