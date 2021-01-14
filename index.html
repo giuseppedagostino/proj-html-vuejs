@@ -255,10 +255,14 @@
       <!-- footer top -->
       <div class="top padding">
         <div class="container_70">
-          <div class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus possimus rerum qui!</div>
-          <div class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique praesentium fuga eaque.</div>
-          <div class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, veniam porro sint!</div>
-          <div class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis doloribus aliquid.</div>
+
+          <div class="column">
+            Colonna statica
+          </div>
+
+          <div class="column" v-for="(column, index) in footerArray">
+            <h2 class="mid_subtitle">{{ column.title }}</h2>
+          </div>
         </div>
       </div>
       <!-- /footer top -->

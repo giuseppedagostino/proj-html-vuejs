@@ -373,15 +373,17 @@ footer .top {
   background-size: cover;
 }
 footer .top .container_70 {
-  height: 400px;
+  height: 350px;
   display: flex;
   justify-content: space-between;
 }
 footer .top .container_70 .column {
-  color: white;
-  width: 24%;
+  padding: 30px;
+  width: 23%;
   height: 100%;
-  border: 2px solid lightgreen;
+  color: white;
+  background-color: rgba(150, 150, 150, 0.1);
+  border-radius: 12px;
 }
 footer .bottom {
   color: white;

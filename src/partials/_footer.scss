@@ -6,14 +6,16 @@ footer {
     background-position: center;
     background-size: cover;
     .container_70 {
-      height: 400px;
+      height: 350px;
       display: flex;
       justify-content: space-between;
       .column {
-        color: white;
-        width: 24%;
+        padding: 30px;
+        width: 23%;
         height: 100%;
-        border: $debugBorder60;
+        color: white;
+        background-color: rgba(150,150,150,0.1);
+        border-radius: 12px;
       }
     }
   }

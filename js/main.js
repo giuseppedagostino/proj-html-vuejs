@@ -36,6 +36,102 @@ var app = new Vue({
       '<i class="far fa-user"></i>',
       '<button class="button_green">get in touch</button>'
     ],
+
+    // array FOOTER
+    footerArray: [
+      // prima colonna
+      {
+        title: "About",
+        links: [
+          {
+            text: "The Company",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Institutional",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Social & Events",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Innovation",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Environment",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Technology",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+        ],
+      },
+
+      // seconda colonna
+      {
+        title: "Services",
+        links: [
+          {
+            text: "The Company",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Institutional",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Social & Events",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Innovation",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Environment",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Technology",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+        ],
+      },
+
+      // terza colonna
+      {
+        title: "Support",
+        links: [
+          {
+            text: "The Company",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Institutional",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Social & Events",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Innovation",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Environment",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+          {
+            text: "Technology",
+            link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+          },
+        ],
+      },
+    ],
   },
   methods: {
 
