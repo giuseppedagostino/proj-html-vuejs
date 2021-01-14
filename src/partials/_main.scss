@@ -176,8 +176,7 @@ main {
             }
           }
           p {
-            // cotinuo a non capire perchè prende solo l'80% della larghezza
-            // width: 100%;
+            word-break: break-all;
             margin-top: 20px;
           }
         }
