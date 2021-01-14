@@ -1,0 +1,31 @@
+@import "partials/_mixins.scss";
+
+footer {
+  .top {
+    background-color: darkgreen;
+    .container_70 {
+      height: 400px;
+    }
+  }
+  .bottom {
+    color: white;
+    background-color: $darkenDarkGrey;
+    .container_70 {
+      height: calc(#{($headerHeight / 2) * 3});
+      line-height: calc(#{($headerHeight / 2) * 3});
+      .p_opacity {
+        margin: 0;
+        display: inline-block;
+      }
+      span {
+        color: $lightGreen;
+      }
+      .left {
+        float: left;
+      }
+      .right {
+        float: right;
+      }
+    }
+  }
+}
