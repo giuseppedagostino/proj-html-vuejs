@@ -36,11 +36,16 @@
           <div class="right">
             <ul>
               <!-- li con icona e testo -->
-              <li v-for="(information) in contactInformations">
+              <li v-for="(information) in contactInformations"
+              v-if="information.positionHeader == true">
+                <!-- vale solo per le icone dei social-->
+                <a :href="information.link">
+                  <span v-html="information.social"></span>
+                </a>
+                <!-- vale per gli oggetti con icona e testo -->
                 <a :href="information.link">
                   <span v-html="information.icon"></span>
-                </a>
-                <a :href="information.link">{{ information.text }}</a>
+                  {{ information.text }}</a>
               </li>
             </ul>
           </div>
@@ -257,7 +262,14 @@
         <div class="container_70">
 
           <div class="column">
-            Colonna statica
+            <span>NEX</span>
+            <span>GEN</span>
+            <p class="p_opacity">A Functional HTML Template for Corporate & Business.</p>
+
+            <ul>
+              <!-- v-if="information.positionFooter == true" -->
+              <li></li>
+            </ul>
           </div>
 
           <div class="column" v-for="(column, index) in footerArray">

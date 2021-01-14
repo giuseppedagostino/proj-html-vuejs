@@ -15,23 +15,38 @@ footer {
         height: 100%;
         background-color: rgba(150,150,150,0.1);
         border-radius: 12px;
+        .p_opacity {
+          margin: 20px 0;
+          transition: 0.25s;
+          i {
+            margin-right: 10px;
+          }
+        }
         // colonna statica
         &:first-child {
+          padding: 0;
           color: white;
+          background-color: transparent;
+          ul {
+            list-style: none;
+          }
+        }
+        span {
+          font-size: 28px;
+          font-weight: 600;
+          &:first-child {
+            padding: 5px 0 5px 30px;
+            color: $lightGreen;
+            background-color: transparentize($mediumGreen, 0.75);
+            border-radius: 30px 0 0 30px;
+          }
         }
         a {
           color: white;
           text-decoration: none;
-          .p_opacity {
-            margin: 20px 0;
-            transition: 0.25s;
-            i {
-              margin-right: 10px;
-            }
-            &:hover {
-              opacity: 1;
-              transform: scale(1.05);
-            }
+          .p_opacity:hover {
+            opacity: 1;
+            transform: scale(1.05);
           }
         }
       }

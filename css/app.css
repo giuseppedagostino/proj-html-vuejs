@@ -47,7 +47,7 @@ button:focus {
 }
 button:hover {
   cursor: pointer;
-  background-color: #52babb;
+  background-color: #059c9c;
   transform: scale(1.05);
 }
 
@@ -73,7 +73,7 @@ header .top {
 header .top a {
   color: rgba(255, 255, 255, 0.75);
 }
-header .top span {
+header .top i {
   margin-right: 7.5px;
 }
 header .bottom {
@@ -386,19 +386,34 @@ footer .top .container_70 .column {
   background-color: rgba(150, 150, 150, 0.1);
   border-radius: 12px;
 }
+footer .top .container_70 .column .p_opacity {
+  margin: 20px 0;
+  transition: 0.25s;
+}
+footer .top .container_70 .column .p_opacity i {
+  margin-right: 10px;
+}
 footer .top .container_70 .column:first-child {
+  padding: 0;
   color: white;
+  background-color: transparent;
+}
+footer .top .container_70 .column:first-child ul {
+  list-style: none;
+}
+footer .top .container_70 .column span {
+  font-size: 28px;
+  font-weight: 600;
+}
+footer .top .container_70 .column span:first-child {
+  padding: 5px 0 5px 30px;
+  color: #52babb;
+  background-color: rgba(4, 131, 131, 0.25);
+  border-radius: 30px 0 0 30px;
 }
 footer .top .container_70 .column a {
   color: white;
   text-decoration: none;
-}
-footer .top .container_70 .column a .p_opacity {
-  margin: 20px 0;
-  transition: 0.25s;
-}
-footer .top .container_70 .column a .p_opacity i {
-  margin-right: 10px;
 }
 footer .top .container_70 .column a .p_opacity:hover {
   opacity: 1;

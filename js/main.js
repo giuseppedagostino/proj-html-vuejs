@@ -4,25 +4,43 @@ var app = new Vue({
     // array per header top
     contactInformations: [
       {
+        positionHeader: true,
+        positionFooter: true,
         icon: '<i class="fas fa-phone-alt"></i>',
         text: "+1 (305) 1234-5678",
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
       {
+        positionHeader: true,
+        positionFooter: true,
         icon: '<i class="fas fa-envelope"></i>',
         text: "hello@example.com",
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
       {
-        icon: '<i class="fab fa-facebook-f"></i>',
+        // questa informazione di contatto deve comparire solo nel footer
+        positionHeader: false,
+        positionFooter: true,
+        icon: '<i class="fas fa-map-marker"></i>',
+        text: "Main Avenue, 987",
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
       {
-        icon: '<i class="fab fa-twitter"></i>',
+        positionHeader: true,
+        positionFooter: false,
+        social: '<i class="fab fa-facebook-f"></i>',
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
       {
-        icon: '<i class="fab fa-linkedin-in"></i>',
+        positionHeader: true,
+        positionFooter: false,
+        social: '<i class="fab fa-twitter"></i>',
+        link: "https://github.com/giuseppedagostino/proj-html-vuejs",
+      },
+      {
+        positionHeader: true,
+        positionFooter: false,
+        social: '<i class="fab fa-linkedin-in"></i>',
         link: "https://www.linkedin.com/in/giuseppe-d-agostino/",
       },
     ],
@@ -75,27 +93,27 @@ var app = new Vue({
         title: "Services",
         links: [
           {
-            text: "The Company",
+            text: "Audit & Assurance",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Institutional",
+            text: "Financial Advisory",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Social & Events",
+            text: "Analytics M&A",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Innovation",
+            text: "Middle Marketing",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Environment",
+            text: "Legal Consulting",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Technology",
+            text: "Regulatory Risk",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
         ],
@@ -106,27 +124,27 @@ var app = new Vue({
         title: "Support",
         links: [
           {
-            text: "The Company",
+            text: "Responsibility",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Institutional",
+            text: "Terms of Use",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Social & Events",
+            text: "About Cookies",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Innovation",
+            text: "Privacy Policy",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Environment",
+            text: "Accessibility",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
           {
-            text: "Technology",
+            text: "Information",
             link: "https://github.com/giuseppedagostino/proj-html-vuejs",
           },
         ],

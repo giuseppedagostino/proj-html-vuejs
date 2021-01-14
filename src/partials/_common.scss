@@ -48,7 +48,7 @@ button {
   }
   &:hover {
     cursor: pointer;
-    background-color: $lightGreen;
+    background-color: lighten($mediumGreen, 5%);
     transform: scale(1.05);
   }
 }
