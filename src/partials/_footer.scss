@@ -6,7 +6,7 @@ footer {
     background-position: center;
     background-size: cover;
     .container_70 {
-      height: 350px;
+      height: 310px;
       display: flex;
       justify-content: space-between;
       .column {
@@ -16,7 +16,7 @@ footer {
         background-color: rgba(150,150,150,0.1);
         border-radius: 12px;
         .p_opacity {
-          margin: 20px 0;
+          margin: 15px 0;
           transition: 0.25s;
           i {
             margin-right: 10px;
@@ -29,9 +29,22 @@ footer {
           background-color: transparent;
           ul {
             list-style: none;
+            li {
+              margin: 20px 0;
+              &:first-child {
+                margin-top: 40px;
+              }
+              &:last-child {
+                margin-bottom: 40px;
+              }
+              &:hover {
+                opacity: 1;
+                transform: scale(1.05);
+              }
+            }
           }
         }
-        span {
+        .title {
           font-size: 28px;
           font-weight: 600;
           &:first-child {

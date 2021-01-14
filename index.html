@@ -262,14 +262,22 @@
         <div class="container_70">
 
           <div class="column">
-            <span>NEX</span>
-            <span>GEN</span>
+            <span class="title">NEX</span>
+            <span class="title">GEN</span>
             <p class="p_opacity">A Functional HTML Template for Corporate & Business.</p>
 
             <ul>
-              <!-- v-if="information.positionFooter == true" -->
-              <li></li>
+              <li v-if="information.positionFooter == true"
+              v-for="(information) in contactInformations"
+              class="p_opacity">
+                <a :href="information.link">
+                  <span v-html="information.icon"></span>
+                  {{ information.text }}
+                </a>
+              </li>
             </ul>
+
+            <button class="button_transparent">get in touch</button>
           </div>
 
           <div class="column" v-for="(column, index) in footerArray">
