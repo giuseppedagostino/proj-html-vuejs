@@ -40,7 +40,7 @@ button {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 7.5px;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 button:focus {
   outline: none;
@@ -48,6 +48,7 @@ button:focus {
 button:hover {
   cursor: pointer;
   background-color: #52babb;
+  transform: scale(1.05);
 }
 
 .button_green {
@@ -276,10 +277,11 @@ main #services .container_70 #card_container .card {
   width: calc(95% / 3);
   background-color: #141a1c;
   border-radius: 12px;
+  transition: 0.5s;
 }
 main #services .container_70 #card_container .card:hover {
   cursor: pointer;
-  transform: scale(1.025);
+  transform: scale(1.05);
 }
 main #services .container_70 #card_container .card:hover .card_top i {
   color: white;
@@ -393,9 +395,14 @@ footer .top .container_70 .column a {
 }
 footer .top .container_70 .column a .p_opacity {
   margin: 20px 0;
+  transition: 0.25s;
 }
 footer .top .container_70 .column a .p_opacity i {
   margin-right: 10px;
+}
+footer .top .container_70 .column a .p_opacity:hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
 footer .bottom {
   color: white;

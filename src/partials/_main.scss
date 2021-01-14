@@ -146,9 +146,10 @@ main {
           width: calc(95% / 3);
           background-color: $darkenDarkGrey;
           border-radius: 12px;
+          transition: 0.5s;
           &:hover {
             cursor: pointer;
-            transform: scale(1.025);
+            transform: scale(1.05);
             .card_top i {
               color: white;
               &:nth-of-type(2) {
