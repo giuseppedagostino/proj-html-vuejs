@@ -203,6 +203,7 @@ main #video .container_60 div:first-child h1:nth-of-type(2) {
 main #video .container_60 .div_img {
   width: 100%;
   position: relative;
+  transition: 0.5s;
 }
 main #video .container_60 .div_img i {
   position: absolute;
@@ -210,8 +211,9 @@ main #video .container_60 .div_img i {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 72px;
+  font-size: 56px;
   opacity: 0.3;
+  transition: 0.5s;
 }
 main #video .container_60 .div_img img {
   width: 100%;
@@ -220,6 +222,7 @@ main #video .container_60 .div_img:hover {
   cursor: pointer;
 }
 main #video .container_60 .div_img:hover i {
+  font-size: 72px;
   opacity: 0.8;
 }
 main #numbers {

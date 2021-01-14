@@ -54,14 +54,16 @@ main {
       .div_img {
         width: 100%;
         position: relative;
+        transition: 0.5s;
         i {
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
           color: white;
-          font-size: 72px;
+          font-size: 56px;
           opacity: 0.3;
+          transition: 0.5s;
         }
         img {
           width: 100%;
@@ -69,6 +71,7 @@ main {
         &:hover {
           cursor: pointer;
           i {
+            font-size: 72px;
             opacity: 0.8;
           }
         }
