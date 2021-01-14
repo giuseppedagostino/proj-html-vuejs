@@ -203,7 +203,7 @@ main #video .container_60 .div_img:hover i {
   opacity: 0.8;
 }
 main #numbers {
-  background: url("../img/bg-7.jpg");
+  background: url("../img/traffic.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -367,7 +367,9 @@ main #team .container_70 .right {
 }
 
 footer .top {
-  background-color: darkgreen;
+  background: url("../img/bg-7.jpg");
+  background-position: center;
+  background-size: cover;
 }
 footer .top .container_70 {
   height: 400px;
