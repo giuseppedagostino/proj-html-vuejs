@@ -13,6 +13,7 @@ header {
     line-height: $headerBaseHeight;
     li {
       a {
+        text-decoration: none;
         color: white;
         opacity: 0.75;
       }

@@ -156,8 +156,23 @@ var app = new Vue({
         ],
       },
     ],
-  },
-  methods: {
 
+    // arrayImages
+    arrayImages: [
+      {name: "bg-1"},
+      {name: "bg-2"},
+      {name: "bg-3"},
+    ],
+    imageIndex: 0,
+    imageName: "bg-1",
+  },
+  mounted: function() {
+    setInterval(() => {
+      this.imageIndex++;
+      if (this.imageIndex == this.arrayImages.length) {
+        this.imageIndex = 0;
+      }
+      this.imageName = this.arrayImages[this.imageIndex].name;
+    }, 5000);
   },
 });

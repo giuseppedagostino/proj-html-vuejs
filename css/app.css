@@ -85,6 +85,7 @@ header .top {
   line-height: 40px;
 }
 header .top li a {
+  text-decoration: none;
   color: white;
   opacity: 0.75;
 }
@@ -152,7 +153,6 @@ header ul li {
 main #jumbotron {
   position: relative;
   height: 800px;
-  background: url("../img/bg-2.jpg");
   background-position: center;
   background-size: cover;
 }

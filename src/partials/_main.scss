@@ -6,7 +6,7 @@ main {
   #jumbotron {
     position: relative;
     height: 800px;
-    background: url("../img/bg-2.jpg");
+    // background: url("../img/bg-2.jpg");
     background-position: center;
     background-size: cover;
     &::before {
@@ -326,6 +326,7 @@ main {
           &:hover {
             cursor: pointer;
             transform: scale(1.05);
+            // filter: blur(2px);
             .hover_card {
               visibility: visible;
             }
