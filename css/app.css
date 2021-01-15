@@ -508,21 +508,26 @@ main #news .container_70 #card_container_3 .card {
   text-align: center;
   border-radius: 15px;
   overflow: hidden;
+  transition: 0.6s;
 }
 main #news .container_70 #card_container_3 .card .hover_card {
-  position: absolute;
-  top: 0;
-  color: white;
   visibility: hidden;
 }
-main #news .container_70 #card_container_3 .card .hover_card p {
-  text-align: center;
+main #news .container_70 #card_container_3 .card .p_hover_card {
+  position: absolute;
+  bottom: 40px;
+  margin: 0 40px;
+  color: white;
 }
 main #news .container_70 #card_container_3 .card:hover {
   cursor: pointer;
+  transform: scale(1.05);
 }
 main #news .container_70 #card_container_3 .card:hover .hover_card {
   visibility: visible;
+}
+main #news .container_70 #card_container_3 .card:hover h2 {
+  bottom: 100px;
 }
 main #news .container_70 #card_container_3 .card::before {
   content: "";
