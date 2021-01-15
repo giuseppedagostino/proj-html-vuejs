@@ -343,10 +343,32 @@ main {
     .container_60 {
       display: flex;
       justify-content: space-between;
-      height: 260px;
       div {
+        @include green-subtitle;
         width: 48%;
-        border: $debugBorder;
+        h1 {
+          display: inline-block;
+          font-size: 38px;
+          &:nth-of-type(1) {
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: $darkGrey;
+          }
+          &:nth-of-type(2) {
+            margin-left: 10px;
+          }
+        }
+        input {
+          width: 100%;
+          background-color: $darkGrey;
+          color: white;
+          &:nth-of-type(2) {
+            margin: 15px 0;
+          }
+        }
+        .p_opacity {
+          margin-bottom: 0;
+        }
       }
     }
   }

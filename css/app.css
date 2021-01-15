@@ -20,7 +20,7 @@
 }
 
 .padding {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .p_opacity {
@@ -40,7 +40,7 @@ button {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 7.5px;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 button:focus {
   outline: none;
@@ -59,6 +59,18 @@ button:hover {
 .button_transparent {
   background-color: transparent;
   border: 1px solid #048383;
+}
+
+.input_style {
+  padding: 12.5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 7.5px;
+  transition: 0.4s;
+}
+.input_style:focus {
+  outline: none;
+  transform: scale(1.025);
 }
 
 header {
@@ -525,11 +537,38 @@ main #newsletter {
 main #newsletter .container_60 {
   display: flex;
   justify-content: space-between;
-  height: 260px;
 }
 main #newsletter .container_60 div {
   width: 48%;
-  border: 2px dotted red;
+}
+main #newsletter .container_60 div p:first-child {
+  margin-bottom: 20px;
+  color: #52babb;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main #newsletter .container_60 div h1 {
+  display: inline-block;
+  font-size: 38px;
+}
+main #newsletter .container_60 div h1:nth-of-type(1) {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #1d2528;
+}
+main #newsletter .container_60 div h1:nth-of-type(2) {
+  margin-left: 10px;
+}
+main #newsletter .container_60 div input {
+  width: 100%;
+  background-color: #1d2528;
+  color: white;
+}
+main #newsletter .container_60 div input:nth-of-type(2) {
+  margin: 15px 0;
+}
+main #newsletter .container_60 div .p_opacity {
+  margin-bottom: 0;
 }
 
 footer .top {
