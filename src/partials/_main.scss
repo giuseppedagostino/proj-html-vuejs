@@ -301,6 +301,21 @@ main {
           text-align: center;
           border-radius: 15px;
           overflow: hidden;
+          .hover_card {
+            position: absolute;
+            top: 0;
+            color: white;
+            visibility: hidden;
+            p {
+              text-align: center;
+            }
+          }
+          &:hover {
+            cursor: pointer;
+            .hover_card {
+              visibility: visible;
+            }
+          }
           &::before {
             @include layover;
           }

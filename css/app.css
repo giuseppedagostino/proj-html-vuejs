@@ -509,6 +509,21 @@ main #news .container_70 #card_container_3 .card {
   border-radius: 15px;
   overflow: hidden;
 }
+main #news .container_70 #card_container_3 .card .hover_card {
+  position: absolute;
+  top: 0;
+  color: white;
+  visibility: hidden;
+}
+main #news .container_70 #card_container_3 .card .hover_card p {
+  text-align: center;
+}
+main #news .container_70 #card_container_3 .card:hover {
+  cursor: pointer;
+}
+main #news .container_70 #card_container_3 .card:hover .hover_card {
+  visibility: visible;
+}
 main #news .container_70 #card_container_3 .card::before {
   content: "";
   position: absolute;
