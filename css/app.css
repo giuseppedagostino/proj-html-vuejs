@@ -518,6 +518,19 @@ main #news .container_70 #card_container_3 .card h2 {
   bottom: 40px;
   font-size: 24px;
 }
+main #newsletter {
+  color: white;
+  background-color: #111117;
+}
+main #newsletter .container_60 {
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+}
+main #newsletter .container_60 div {
+  width: 48%;
+  border: 2px dotted red;
+}
 
 footer .top {
   background: url("../img/bg-7.jpg");

@@ -335,4 +335,20 @@ main {
     }
   }
   // FINE NEWS
+
+  // NEWSLETTER
+  #newsletter {
+    color: white;
+    background-color: $almostBlack;
+    .container_60 {
+      display: flex;
+      justify-content: space-between;
+      height: 260px;
+      div {
+        width: 48%;
+        border: $debugBorder;
+      }
+    }
+  }
+  // FINE NEWSLETTER
 }
