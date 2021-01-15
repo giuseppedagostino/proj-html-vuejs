@@ -52,7 +52,7 @@
      height: 40px; width: 40px;
      border-radius: 50%;
      background-color: $lightGrey;
-     transition: 0.2s;
+     transition: $fastTransition;
      i {
        position: absolute;
        top: 50%; left: 50%;

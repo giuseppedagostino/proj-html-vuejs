@@ -58,7 +58,7 @@ main {
       .div_img {
         width: 100%;
         position: relative;
-        transition: 0.5s;
+        transition: $slowTransition;
         i {
           position: absolute;
           top: 50%;
@@ -153,7 +153,7 @@ main {
           width: calc(95% / 3);
           background-color: $darkenDarkGrey;
           border-radius: 12px;
-          transition: 0.5s;
+          transition: $slowTransition;
           &:hover {
             cursor: pointer;
             transform: scale(1.05);
@@ -390,7 +390,6 @@ main {
       }
       .right {
         width: 32.5%;
-        border: $debugBorder60;
         .p_opacity {
           display: inline-block;
           margin: 20px 0;

@@ -11,14 +11,11 @@
   margin: auto;
   width: 70%;
   font-size: 15px;
-  border: $debugBorder;
-  // al momento questo bordo di debug crea piccole imperfezioni di layout
 }
 .container_60 {
   margin: auto;
   width: 60%;
   font-size: 15px;
-  border: $debugBorder60;
 }
 .padding {
   padding: 100px 0;
@@ -42,7 +39,7 @@ button {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 7.5px;
-  transition: 0.4s;
+  transition: $fastTransition;
   &:focus {
     outline: none;
   }
@@ -65,7 +62,7 @@ button {
   font-size: 18px;
   border: none;
   border-radius: 7.5px;
-  transition: 0.4s;
+  transition: $fastTransition;
   &:focus {
     outline: none;
     transform: scale(1.025);

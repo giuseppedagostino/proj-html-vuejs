@@ -17,7 +17,7 @@ footer {
         border-radius: 12px;
         .p_opacity {
           margin: 15px 0;
-          transition: 0.25s;
+          transition: $fastTransition;
           i {
             margin-right: 10px;
           }

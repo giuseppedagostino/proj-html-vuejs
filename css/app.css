@@ -9,14 +9,12 @@
   margin: auto;
   width: 70%;
   font-size: 15px;
-  border: 2px dotted red;
 }
 
 .container_60 {
   margin: auto;
   width: 60%;
   font-size: 15px;
-  border: 2px solid lightgreen;
 }
 
 .padding {
@@ -40,7 +38,7 @@ button {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 7.5px;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 button:focus {
   outline: none;
@@ -66,7 +64,7 @@ button:hover {
   font-size: 18px;
   border: none;
   border-radius: 7.5px;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 .input_style:focus {
   outline: none;
@@ -95,7 +93,7 @@ header .top li i {
 }
 header .top li:hover {
   transform: scale(1.05);
-  transition: 0.5s;
+  transition: 0.2s;
 }
 header .top li:hover a {
   opacity: 1;
@@ -113,7 +111,7 @@ header .bottom .right {
 }
 header .bottom .right li:hover {
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.2s;
 }
 header .bottom .right li:hover span {
   cursor: pointer;
@@ -225,7 +223,7 @@ main #video .container_60 div:first-child h1:nth-of-type(2) {
 main #video .container_60 .div_img {
   width: 100%;
   position: relative;
-  transition: 0.5s;
+  transition: 0.6s;
 }
 main #video .container_60 .div_img i {
   position: absolute;
@@ -321,7 +319,7 @@ main #services .container_70 #card_container .card {
   width: calc(95% / 3);
   background-color: #141a1c;
   border-radius: 12px;
-  transition: 0.5s;
+  transition: 0.6s;
 }
 main #services .container_70 #card_container .card:hover {
   cursor: pointer;
@@ -620,7 +618,6 @@ main #get_in_touch .container_70 .left #input_container textarea {
 }
 main #get_in_touch .container_70 .right {
   width: 32.5%;
-  border: 2px solid lightgreen;
 }
 main #get_in_touch .container_70 .right .p_opacity {
   display: inline-block;
@@ -685,7 +682,7 @@ footer .top .container_70 .column {
 }
 footer .top .container_70 .column .p_opacity {
   margin: 15px 0;
-  transition: 0.25s;
+  transition: 0.2s;
 }
 footer .top .container_70 .column .p_opacity i {
   margin-right: 10px;

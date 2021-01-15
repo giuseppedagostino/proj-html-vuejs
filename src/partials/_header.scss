@@ -21,7 +21,7 @@ header {
       }
       &:hover {
         transform: scale(1.05);
-        transition: 0.5s;
+        transition: $fastTransition;
         a {
           opacity: 1;
         }
@@ -37,7 +37,7 @@ header {
       text-transform: uppercase;
       li:hover {
         transform: scale(1.1);
-        transition: 0.5s;
+        transition: $fastTransition;
         span{
           cursor: pointer;
         }
