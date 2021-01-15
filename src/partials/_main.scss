@@ -373,4 +373,27 @@ main {
     }
   }
   // FINE NEWSLETTER
+
+  // GET IN TOUCH
+  #get_in_touch {
+    background-color: $panna;
+    .container_70 {
+      height: 500px;
+      display: flex;
+      justify-content: space-between;
+      .left {
+        width: 62.5%;
+        border: $debugBorder60;
+        @include green-subtitle;
+        h1 {
+          @include section-title;
+        }
+      }
+      .right {
+        width: 32.5%;
+        border: $debugBorder60;
+      }
+    }
+  }
+  // FINE GET IN TOUCH
 }

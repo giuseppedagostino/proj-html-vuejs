@@ -219,7 +219,7 @@ main #video .container_60 div:first-child h1:nth-of-type(2) {
   margin-left: 10px;
   padding: 5px 10px;
   color: #048383;
-  background-color: #e7eee9;
+  background-color: #d8e3db;
   border-radius: 5px;
 }
 main #video .container_60 .div_img {
@@ -489,7 +489,7 @@ main #news .container_70 h1:nth-of-type(2) {
   margin-left: 10px;
   padding: 5px 10px;
   color: #048383;
-  background-color: #e7eee9;
+  background-color: #d8e3db;
   border-radius: 5px;
 }
 main #news .container_70 .p_opacity {
@@ -569,6 +569,42 @@ main #newsletter .container_60 div input:nth-of-type(2) {
 }
 main #newsletter .container_60 div .p_opacity {
   margin-bottom: 0;
+}
+main #get_in_touch {
+  background-color: #EEF4ED;
+}
+main #get_in_touch .container_70 {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+main #get_in_touch .container_70 .left {
+  width: 62.5%;
+  border: 2px solid lightgreen;
+}
+main #get_in_touch .container_70 .left p:first-child {
+  margin-bottom: 20px;
+  color: #52babb;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main #get_in_touch .container_70 .left h1 {
+  display: inline-block;
+  font-size: 38px;
+}
+main #get_in_touch .container_70 .left h1:nth-of-type(1) {
+  color: black;
+}
+main #get_in_touch .container_70 .left h1:nth-of-type(2) {
+  margin-left: 10px;
+  padding: 5px 10px;
+  color: #048383;
+  background-color: #d8e3db;
+  border-radius: 5px;
+}
+main #get_in_touch .container_70 .right {
+  width: 32.5%;
+  border: 2px solid lightgreen;
 }
 
 footer .top {

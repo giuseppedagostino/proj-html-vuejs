@@ -21,7 +21,7 @@
     margin-left: 10px;
     padding: 5px 10px;
     color: $mediumGreen;
-    background-color: $lightGrey;
+    background-color: darken($lightGrey, 5%);
     border-radius: 5px;
   }
 }
