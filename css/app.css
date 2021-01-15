@@ -519,6 +519,18 @@ main #news .container_70 #card_container_3 .card .p_hover_card {
   margin: 0 40px;
   color: white;
 }
+main #news .container_70 #card_container_3 .card .h4_hover_card {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  color: white;
+}
+main #news .container_70 #card_container_3 .card .h4_hover_card > span {
+  margin: 0 10px;
+}
+main #news .container_70 #card_container_3 .card .h4_hover_card > span i {
+  margin-right: 5px;
+}
 main #news .container_70 #card_container_3 .card:hover {
   cursor: pointer;
   transform: scale(1.05);
