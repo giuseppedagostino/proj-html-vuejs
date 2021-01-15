@@ -623,7 +623,21 @@ main #get_in_touch .container_70 .right {
   border: 2px solid lightgreen;
 }
 main #get_in_touch .container_70 .right .p_opacity {
+  display: inline-block;
   margin: 20px 0;
+}
+main #get_in_touch .container_70 .right div {
+  display: flex;
+  font-size: 16px;
+}
+main #get_in_touch .container_70 .right div a {
+  align-self: center;
+}
+main #get_in_touch .container_70 .right div .circle {
+  margin-right: 20px;
+}
+main #get_in_touch .container_70 .right div:nth-of-type(3) {
+  margin-bottom: 20px;
 }
 main #get_in_touch .container_70 .right .circle {
   display: inline-block;

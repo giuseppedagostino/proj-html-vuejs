@@ -414,9 +414,16 @@
             <p class="p_opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <p class="p_opacity">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe voluptates nisi?</p>
 
-
-            <div class="circle">
-              <i class="fab fa-facebook-f"></i>
+            <div v-for="(information) in contactInformations"
+            v-if="information.positionMain == true">
+              <a :href="information.link">
+                <div class="circle">
+                  <span v-html="information.icon"></span>
+                </div>
+              </a>
+                <p class="p_opacity">
+                  {{ information.text }}
+                </p>
             </div>
 
 

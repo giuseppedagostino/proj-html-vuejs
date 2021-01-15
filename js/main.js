@@ -6,6 +6,7 @@ var app = new Vue({
       {
         positionHeader: true,
         positionFooter: true,
+        positionMain: true,
         icon: '<i class="fas fa-phone-alt"></i>',
         text: "+1 (305) 1234-5678",
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
@@ -13,6 +14,7 @@ var app = new Vue({
       {
         positionHeader: true,
         positionFooter: true,
+        positionMain: true,
         icon: '<i class="fas fa-envelope"></i>',
         text: "hello@example.com",
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
@@ -21,6 +23,7 @@ var app = new Vue({
         // questa informazione di contatto deve comparire solo nel footer
         positionHeader: false,
         positionFooter: true,
+        positionMain: true,
         icon: '<i class="fas fa-map-marker"></i>',
         text: "Main Avenue, 987",
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
@@ -28,18 +31,21 @@ var app = new Vue({
       {
         positionHeader: true,
         positionFooter: false,
+        positionMain: false,
         social: '<i class="fab fa-facebook-f"></i>',
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
       {
         positionHeader: true,
         positionFooter: false,
+        positionMain: false,
         social: '<i class="fab fa-twitter"></i>',
         link: "https://github.com/giuseppedagostino/proj-html-vuejs",
       },
       {
         positionHeader: true,
         positionFooter: false,
+        positionMain: false,
         social: '<i class="fab fa-linkedin-in"></i>',
         link: "https://www.linkedin.com/in/giuseppe-d-agostino/",
       },
