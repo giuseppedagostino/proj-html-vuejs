@@ -625,6 +625,32 @@ main #get_in_touch .container_70 .right {
 main #get_in_touch .container_70 .right .p_opacity {
   margin: 20px 0;
 }
+main #get_in_touch .container_70 .right .circle {
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #e7eee9;
+  transition: 0.2s;
+}
+main #get_in_touch .container_70 .right .circle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #048383;
+}
+main #get_in_touch .container_70 .right .circle:hover {
+  transform: scale(1.1);
+}
+main #get_in_touch .container_70 .right button {
+  color: #048383;
+}
+main #get_in_touch .container_70 .right button:hover {
+  color: white;
+}
 
 footer .top {
   background: url("../img/bg-7.jpg");

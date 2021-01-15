@@ -236,24 +236,7 @@ main {
                   text-transform: uppercase;
                   font-weight: 400;
                 }
-                .circle {
-                  display: inline-block;
-                  position: relative;
-                  height: 40px; width: 40px;
-                  border-radius: 50%;
-                  background-color: $lightGrey;
-                  transition: 0.2s;
-                  i {
-                    position: absolute;
-                    top: 50%; left: 50%;
-                    transform: translate(-50%, -50%);
-                    font-size: 20px;
-                    color: $mediumGreen;
-                  }
-                  &:hover {
-                    transform: scale(1.1);
-                  }
-                }
+                @include circle;
               }
             }
           }
@@ -410,6 +393,13 @@ main {
         border: $debugBorder60;
         .p_opacity {
           margin: 20px 0;
+        }
+        @include circle;
+        button {
+          color: $mediumGreen;
+          &:hover {
+            color: white;
+          }
         }
       }
     }
